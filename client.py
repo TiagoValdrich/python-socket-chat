@@ -1,4 +1,4 @@
-import socket, select, sys, threading
+import socket, threading
 
 def handle_server_messages(socket: socket.socket) -> None:
     while True:
