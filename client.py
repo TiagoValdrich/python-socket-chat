@@ -3,8 +3,6 @@ import socket
 def client() -> None:
     SERVER_ADDRESS = '127.0.0.1'
     SERVER_PORT = 12000
-    
-    open_thread = None
 
     try:
         socket_instance = socket.socket()
