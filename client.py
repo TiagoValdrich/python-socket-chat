@@ -1,4 +1,4 @@
-import socket, threading, time
+import socket, threading
 
 def handle_messages(connection: socket.socket):
     '''
